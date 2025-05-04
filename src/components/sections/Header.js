@@ -8,8 +8,11 @@ import { motion } from 'framer-motion'
 const navItems = [
   { href: '#home', label: 'Home' },
   { href: '#about', label: 'About' },
-  { href: '#projects', label: 'Projects' },
   { href: '#experience', label: 'Experience' },
+  { href: '#research', label: 'Research' },
+  { href: '#projects', label: 'Projects' },
+  { href: '#skills', label: 'Skills' },
+  { href: '#certificates', label: 'Certificates' },
   { href: '#contact', label: 'Contact' }
 ]
 
@@ -45,7 +48,7 @@ export default function Header() {
           </div>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden lg:flex items-center space-x-8">
             {navItems.map((item, index) => (
               <motion.a
                 key={item.href}
@@ -63,7 +66,7 @@ export default function Header() {
           </div>
 
           {/* Mobile Navigation Button */}
-          <div className="md:hidden flex items-center">
+          <div className="lg:hidden flex items-center">
             <ThemeToggle />
             <button
               onClick={() => setIsOpen(!isOpen)}
@@ -77,7 +80,7 @@ export default function Header() {
         {/* Mobile Navigation Menu */}
         {isOpen && (
           <motion.div
-            className="md:hidden"
+            className="lg:hidden"
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
