@@ -1,4 +1,6 @@
-@import 'tailwindcss';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /* Base styles */
 :root {
@@ -48,6 +50,12 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
+/* Light theme glass effect */
+.light .glass {
+  background: rgba(255, 255, 255, 0.4);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
 /* Animation */
 @keyframes blob {
   0% {
@@ -74,4 +82,23 @@ body {
 
 .animation-delay-4000 {
   animation-delay: 4s;
+}
+
+.cursor-dot {
+  width: 8px;
+  height: 8px;
+  position: fixed;
+  border-radius: 50%;
+  background-color: var(--primary);
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  transition: width 0.1s ease, height 0.1s ease;
+}
+
+.cursor-dot.link-hover {
+  width: 32px;
+  height: 32px;
+  border: 2px solid var(--primary);
+  background-color: transparent;
 }
