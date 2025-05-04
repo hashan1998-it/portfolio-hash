@@ -8,7 +8,7 @@ const educationData = [
   {
     degree: "BSc. (Hons) in Computing & Information Systems",
     school: "Sabaragamuwa University of Sri Lanka",
-    period: "2020 - Present",
+    period: "2020 - 2025",
     gpa: "3.63",
     details: [
       "Selected to the Dean's List for highest performance in Second Year Examination",

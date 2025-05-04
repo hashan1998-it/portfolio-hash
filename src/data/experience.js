@@ -2,7 +2,7 @@ export const experience = [
   {
     title: "BSc Computing & Information Systems",
     organization: "Sabaragamuwa University of Sri Lanka",
-    period: "2020 - Present",
+    period: "2020 - 2025",
     description: "Currently pursuing my bachelor's degree with a CGPA of 3.63. Selected for Dean's List for highest performance in Second Year Examination. Focusing on full-stack development, database systems, and software engineering.",
     technologies: ["Full-Stack Development", "Database Systems", "Software Engineering"]
   },
