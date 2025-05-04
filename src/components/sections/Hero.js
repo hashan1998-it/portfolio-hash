@@ -13,7 +13,7 @@ export default function Hero() {
     >
       <div className="absolute inset-0 z-0">
         <div className="absolute left-4 top-4 w-72 h-72 rounded-full mix-blend-multiply filter blur-xl animate-blob" 
-             style={{ backgroundColor: '#E53E3E33' }} />
+             style={{ backgroundColor: '#4F46E533' }} /> {/* Indigo instead of red */}
         <div className="absolute right-4 top-0 w-72 h-72 rounded-full mix-blend-multiply filter blur-xl animate-blob animation-delay-2000" 
              style={{ backgroundColor: '#3182CE33' }} />
         <div className="absolute left-20 bottom-4 w-72 h-72 rounded-full mix-blend-multiply filter blur-xl animate-blob animation-delay-4000" 

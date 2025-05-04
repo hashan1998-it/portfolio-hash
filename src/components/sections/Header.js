@@ -39,7 +39,7 @@ export default function Header() {
               whileTap={{ scale: 0.95 }}
             >
               <span className="text-xl font-bold text-gradient">
-                H.Sooriyage
+                HS.
               </span>
             </motion.a>
           </div>

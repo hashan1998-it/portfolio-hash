@@ -1,4 +1,15 @@
-import { Code, Layout, Database, Server, Smartphone, Wrench } from 'lucide-react'
+import { 
+  Code, 
+  Palette, 
+  Database, 
+  Server, 
+  Smartphone, 
+  Wrench,
+  Container,
+  FileCode2,
+  GitBranch,
+  Box
+} from 'lucide-react'
 
 export const skills = [
   {
@@ -8,7 +19,7 @@ export const skills = [
   },
   {
     category: "Frontend",
-    icon: Layout,
+    icon: Palette,
     items: ["React.js", "Next.js", "Vue.js", "Flutter", "Tailwind CSS", "Bootstrap", "GSAP"]
   },
   {
@@ -27,7 +38,7 @@ export const skills = [
     items: ["Flutter", "React Native", "iOS Development", "Android Development"]
   },
   {
-    category: "Tools & Others",
+    category: "DevOps & Tools",
     icon: Wrench,
     items: ["Git", "Docker", "Postman", "Figma", "VS Code", "GraphQL", "Jest"]
   }
